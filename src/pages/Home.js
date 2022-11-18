@@ -1,10 +1,16 @@
 import ContentCard from "../components/content-card";
 import ContentSideCard from "../components/content-side";
+import bird from "../assets/bird.jpg";
 
 const HomePage = () => {
   return (
     <div>
-      <ContentSideCard className="content-info" content="hello" />
+      <ContentSideCard
+        className="content-info"
+        imgsrc={bird}
+        alttext="bird.jpg"
+        content="Hi! I'm Derek and this is just a personal website I have created during my spare time. This is just a sample which is ran locally as of right now"
+      />
 
       <div className="content">
         <div className="content-card">

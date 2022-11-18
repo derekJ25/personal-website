@@ -41,6 +41,18 @@ body {
     padding: 1em 10em;
     background-color: #94dfff;
     color: gray;
+    overflow: hidden;
+  }
+  .content-info img {
+    height: 80%;
+    width: 15%;
+    /* height: 20rem;
+    width: 15rem; */
+    margin: 2rem;
+    float: left;
+  }
+  .content-info p {
+   font-size: 30px;
   }
   .content {
     padding: 5em 10em 1em 10em;
