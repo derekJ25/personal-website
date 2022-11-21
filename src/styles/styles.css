@@ -1,6 +1,6 @@
 /* Color palette link: https://colors.dopely.top/inside-colors/wp-content/uploads/2021/03/Dopely-Blue-Color-Palette-%E2%80%93-15.png */
 /* 
-#69a6d1
+#69a6d1 
 #94dfff 
 #c9ebef 
 #ffd4b1
@@ -50,7 +50,7 @@ body {
     float: left;
   }
   .content {
-    padding: 5em 15em 1em 15em;
+    padding: 1em 20em;
     font-weight: 400;
   }
   .content-section h2 {
@@ -58,7 +58,11 @@ body {
     text-decoration: underline;
   }
   .content-card {
-    margin: 0 0 4em 0;
+    margin: 0 0 2em 0;
+  }
+  .about-links {
+    color: #69a6d1;
+    font-size: 2em;
   }
   
   /* Bottom navigation bar */

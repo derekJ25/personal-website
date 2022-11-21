@@ -10,7 +10,7 @@ const HomePage = () => {
         imgsrc={bird}
         alttext="bird.jpg"
         title="Welcome!"
-        content="Hi! I'm Derek and this is just a personal website I have created during my spare time. This is just a sample which is ran locally as of right now"
+        content="Hello! I'm Derek and this is just a personal website I have created during my spare time. This is just a sample which is ran locally as of right now."
       />
 
       <div className="content">
