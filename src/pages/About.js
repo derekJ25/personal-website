@@ -1,6 +1,6 @@
 import React from "react";
 import ContentCard from "../components/content-card";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const AboutPage = () => {
   return (
@@ -13,10 +13,35 @@ const AboutPage = () => {
           real world which can help improve our quality of life."
       />
 
-      <div>
-        <h2>Links</h2>
-        <a className="about-links" href="//www.google.com">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Sports</li>
+        <ul>
+          <li>Basketball</li>
+          <li>Volleyball</li>
+          <li>Swimming</li>
+        </ul>
+        <li>Reading</li>
+        <li>Gaming</li>
+        <li>Coding</li>
+        <li>
+          Learning new things that I haven't done before such as new coding
+          language
+        </li>
+        <li>Listening to music</li>
+        <li>Sudoku</li>
+      </ul>
+
+      <h3>Links to external websites</h3>
+      <div className="about-links">
+        <a href="//www.google.com" title="LinkedIn">
           <FaLinkedin />
+        </a>
+        <a href="//www.google.com" title="GitHub - Personal">
+          <FaGithubSquare />
+        </a>
+        <a href="//www.google.com" title="GitHub - University">
+          <FaGithubSquare />
         </a>
       </div>
 

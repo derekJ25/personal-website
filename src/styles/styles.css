@@ -60,8 +60,8 @@ body {
   .content-card {
     margin: 0 0 2em 0;
   }
-  .about-links {
-    color: #69a6d1;
+  .about-links a{
+    color: gray;
     font-size: 2em;
   }
   
