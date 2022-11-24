@@ -8,68 +8,74 @@
 
 /* Page layout */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .container {
-    font-size: 18px;
-  }
-  
-  /* Navigation bar */
-  .navbar {
-    padding: 0.5rem 2rem;
-    background-color: #94dfff;
-  }
-  .navbar-items {
-    list-style: none;
-    font-weight: 600;
-  }
-  .nav-item {
-    float: right;
-  }
-  .nav-link {
-    text-align: center;
-    text-decoration: none;
-    margin: 1.5em;
-    color: black;
-  }
-  
-  /* Body */
-  .content-info {
-    height: 40vh;
-    padding: 1em 10em;
-    background-color: #94dfff;
-    overflow: hidden;
-    font-size: 26px;
-  }
-  .content-info img {
-    height: 80%;
-    width: 20%;
-    margin: 2rem;
-    float: left;
-  }
-  .content {
-    padding: 1em 20em;
-    font-weight: 400;
-  }
-  .content-section h2 {
-    font-weight: 600;
-    text-decoration: underline;
-  }
-  .content-card {
-    margin: 0 0 2em 0;
-  }
-  .about-links a{
-    color: gray;
-    font-size: 2em;
-  }
-  
-  /* Bottom navigation bar */
-  .bottom-navbar {
-    padding: 1em;
-    background-color: #ffd4b1;
-    text-align: center;
-    font-size: 14px;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  min-height: 100vh;
+  position: relative;
+  font-size: 18px;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0.5rem 2rem;
+  background-color: #94dfff;
+}
+.navbar-items {
+  list-style: none;
+  font-weight: 600;
+}
+.nav-item {
+  float: right;
+}
+.nav-link {
+  text-align: center;
+  text-decoration: none;
+  margin: 1.5em;
+  color: black;
+}
+
+/* Body */
+.content-info {
+  height: 40vh;
+  padding: 1em 10em;
+  background-color: #94dfff;
+  overflow: hidden;
+  font-size: 26px;
+}
+.content-info img {
+  height: 80%;
+  width: 20%;
+  margin: 2rem;
+  float: left;
+}
+.content {
+  padding: 1em 20em;
+  font-weight: 400;
+  padding-bottom: 4rem;
+}
+.content-section h2 {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.content-card {
+  margin: 0 0 2em 0;
+}
+.about-links a {
+  color: gray;
+  font-size: 2em;
+}
+
+/* Bottom navigation bar */
+.bottom-navbar {
+  padding: 1em 0;
+  background-color: #ffd4b1;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

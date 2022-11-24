@@ -6,7 +6,9 @@ const NavBar = () => {
     <nav className="navbar">
       <ul className="navbar-items">
         {/* Add to"/" but then have on logo + name  */}
-        <Link className="nav-link">Derek J</Link>
+        <Link className="nav-link" to="/">
+          Derek J
+        </Link>
         <NavBarItem itemName="About" location="/about" />
         <NavBarItem itemName="Extra" location="/extra" />
         <NavBarItem itemName="Home" location="/" />
