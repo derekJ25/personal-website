@@ -67,10 +67,11 @@ body {
 .about-links a {
   color: gray;
   font-size: 2em;
+  margin-right: 1rem;
 }
 
-/* Bottom navigation bar */
-.bottom-navbar {
+/* Footer */
+.footer {
   padding: 1em 0;
   background-color: #ffd4b1;
   text-align: center;
