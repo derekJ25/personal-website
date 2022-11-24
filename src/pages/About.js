@@ -35,8 +35,8 @@ const AboutPage = () => {
         <li>Sudoku</li>
       </ul>
 
-      <h3>Links to external websites</h3>
       <div className="about-links">
+        <h3>Links to external websites</h3>
         <a
           href="//www.linkedin.com/in/derek-jiang-777718215/"
           title="LinkedIn"
