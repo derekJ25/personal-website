@@ -8,10 +8,17 @@ const AboutPage = () => {
       <ContentCard
         title="About me"
         content="I am currently studying Bachelor of Information Technology at RMIT
-          university. I've had a passion in technology when I was a kid as I was
+          university. I've had a passion in technology when I was younger as I was
           intrested in how these technologies worked, how they are used in the
-          real world which can help improve our quality of life."
+          real world which can help improve our quality of life. I also enjoy learning new things that I have little to no experience in
+          such as learning a new coding language, playing a new sport and cooking
+          new recipes like a tart."
       />
+      <p>
+        Some of my external links will be located at the bottom of this about
+        page which includes my LinkedIn profile, my GitHub that is used for
+        university and my own personal GitHub.
+      </p>
 
       <h3>Hobbies</h3>
       <ul>
@@ -24,36 +31,37 @@ const AboutPage = () => {
         <li>Reading</li>
         <li>Gaming</li>
         <li>Coding</li>
-        <li>
-          Learning new things that I haven't done before such as new coding
-          language
-        </li>
         <li>Listening to music</li>
         <li>Sudoku</li>
       </ul>
 
       <h3>Links to external websites</h3>
       <div className="about-links">
-        <a href="//www.google.com" title="LinkedIn">
+        <a
+          href="//www.linkedin.com/in/derek-jiang-777718215/"
+          title="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a href="//www.google.com" title="GitHub - Personal">
+        <a
+          href="//github.com/s3844786"
+          title="GitHub - Personal"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithubSquare />
         </a>
-        <a href="//www.google.com" title="GitHub - University">
+        <a
+          href="//github.com/derekJ25"
+          title="GitHub - University"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithubSquare />
         </a>
       </div>
-
-      {/* <div className="content-section">
-        <h2>About me</h2>
-        <p>
-          I am currently studying Bachelor of Information Technology at RMIT
-          university. I've had a passion in technology when I was a kid as I was
-          intrested in how these technologies worked, how they are used in the
-          real world which can help improve our quality of life.
-        </p>
-      </div> */}
     </div>
   );
 };

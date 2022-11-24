@@ -19,11 +19,12 @@ body {
   
   /* Navigation bar */
   .navbar {
-    padding: 1em 2em;
+    padding: 0.5rem 2rem;
     background-color: #94dfff;
   }
   .navbar-items {
     list-style: none;
+    font-weight: 600;
   }
   .nav-item {
     float: right;
