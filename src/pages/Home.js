@@ -5,13 +5,13 @@ import bird from "../assets/bird.jpg";
 const HomePage = () => {
   return (
     <div>
-      <ContentSideCard
+      {/* <ContentSideCard
         className="content-info"
         imgsrc={bird}
         alttext="bird.jpg"
         title="Welcome!"
         content="Hello! I'm Derek and this is just a personal website I have created during my spare time. This is just a sample which is ran locally as of right now."
-      />
+      /> */}
 
       <div className="content">
         <div className="content-card">

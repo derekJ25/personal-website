@@ -6,7 +6,7 @@
 #ffd4b1
 #fcadb0 */
 
-/* Page layout */
+/* PAGE LAYOUT */
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
   font-size: 18px;
 }
 
-/* Navigation bar */
+/* NAVIGATION BAR */
 .navbar {
   padding: 0.5rem 2rem;
   background-color: #94dfff;
@@ -34,11 +34,26 @@ body {
 .nav-link {
   text-align: center;
   text-decoration: none;
-  margin: 1.5em;
+  margin: 2em;
+  color: black;
+}
+.nav-link-name {
+  text-align: center;
+  text-decoration: none;
+  margin-left: 12em;
+  color: black;
+  font-size: 1.5rem;
+}
+.nav-link-last {
+  text-align: center;
+  text-decoration: none;
+  padding-right: 12rem;
+  margin-left: 2em;
   color: black;
 }
 
-/* Body */
+/* BODY */
+/* HOME PAGE */
 .content-info {
   height: 40vh;
   padding: 1em 10em;
@@ -63,14 +78,14 @@ body {
 }
 .content-card {
   margin: 0 0 2em 0;
-}
-.about-links a {
-  color: gray;
-  font-size: 2em;
-  margin-right: 1rem;
+  width: 112%;
 }
 
-/* Footer */
+/* EXTRA PAGE */
+
+/* ABOUT PAGE */
+
+/* FOOTER */
 .footer {
   padding: 1em 0;
   background-color: #ffd4b1;

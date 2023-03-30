@@ -5,22 +5,25 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <ul className="navbar-items">
-        {/* Add to"/" but then have on logo + name  */}
-        <Link className="nav-link" to="/">
+        <Link className="nav-link-name" to="/">
           Derek J
         </Link>
-        <NavBarItem itemName="About" location="/about" />
-        <NavBarItem itemName="Extra" location="/extra" />
-        <NavBarItem itemName="Home" location="/" />
+        <NavBarItem
+          itemName="About"
+          location="/about"
+          className={"nav-link-last"}
+        />
+        <NavBarItem itemName="Extra" location="/extra" className={"nav-link"} />
+        <NavBarItem itemName="Home" location="/" className={"nav-link"} />
       </ul>
     </nav>
   );
 };
 
-function NavBarItem({ location, itemName }) {
+function NavBarItem({ location, itemName, className }) {
   return (
     <li className="nav-item">
-      <Link className="nav-link" to={location}>
+      <Link className={className} to={location}>
         {itemName}
       </Link>
     </li>
